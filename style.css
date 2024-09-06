@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toppart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border: 2px solid black;
+}
+
+.toppart h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto; /* This pushes the list to the right */
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button{
+    cursor:pointer;
+    border-radius: 30px;
+    background-color: black;
+    color: #f8f8f8;
+    padding:10px 22px;
+
+}
