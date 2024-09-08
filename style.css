@@ -41,3 +41,25 @@ button{
     padding:10px 22px;
 
 }
+.part-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    padding-top: 0%;
+    background-color: #f8f8f1;
+}
+
+.inner1 {
+    width: 60%;
+}
+
+.inner2 {
+    width: 40%;
+    text-align: right;
+}
+.img-m {
+    width: 450px;
+    height: auto;
+}
+
