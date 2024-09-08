@@ -92,3 +92,48 @@ button{
     margin-top: 20px;
     margin-left: 5%;
 }
+.start-reading-btn:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: #f8f8f1;
+    padding: 40px;
+    border-top: 1px solid #e5e5e5;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-rights {
+    font-size: 14px;
+
+    color:floralwhite;
+}
